@@ -1,0 +1,7 @@
+#Wed Aug 06 11:57:12 UTC 2025
+base.1=/home/thomas/milersättning/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.1=classes2.dex
+base.0=/home/thomas/milersättning/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

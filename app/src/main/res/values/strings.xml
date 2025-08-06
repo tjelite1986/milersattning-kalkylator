@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Milersättning</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="hello_world">Välkommen till Milersättning!</string>
+    <string name="calculate_mileage">Beräkna Milersättning</string>
+    <string name="from_address">Från adress</string>
+    <string name="to_address">Till adress</string>
+    <string name="distance_km">Distans (km)</string>
+    <string name="mileage_rate">Milersättning (SEK/km)</string>
+    <string name="total_amount">Totalt belopp</string>
+    <string name="calculate">Beräkna</string>
+    <string name="save_trip">Spara resa</string>
+    <string name="trip_history">Resehistorik</string>
+    <string name="use_addresses">Använd adresser</string>
+    <string name="manual_distance">Manuell distans</string>
+    <string name="calculating_distance">Beräknar distans...</string>
+    <string name="address_hint_from">Skriv för att få förslag...</string>
+    <string name="address_hint_to">Skriv för att få förslag...</string>
+    <string name="add_to_favorites">Lägg till favorit</string>
+    <string name="favorites">Favoriter</string>
+    <string name="manage_favorites">Hantera favoriter</string>
+    <string name="no_favorites">Inga favoriter sparade</string>
+    <string name="favorite_name_hint">Namn på favorit (t.ex. Hemma, Jobbet)</string>
+</resources>
