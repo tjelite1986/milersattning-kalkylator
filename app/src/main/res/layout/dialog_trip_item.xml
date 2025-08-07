@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Header row with icon, title and amount -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_background"
+            android:backgroundTint="#4CAF50"
+            android:gravity="center"
+            android:layout_marginEnd="12dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_directions"
+                app:tint="#FFFFFF" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/trip_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Beskrivning"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/trip_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00 SEK"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#4CAF50"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+    <!-- Distance and Purpose row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="52dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@android:drawable/ic_menu_mylocation"
+                app:tint="#757575"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:id="@+id/trip_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0.0 km"
+                android:textSize="14sp"
+                android:textColor="#757575" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@android:drawable/ic_menu_agenda"
+                app:tint="#757575"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:id="@+id/trip_purpose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syfte"
+                android:textSize="14sp"
+                android:textColor="#757575" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Time and Date row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="52dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@android:drawable/ic_menu_recent_history"
+                app:tint="#9E9E9E"
+                android:layout_marginEnd="6dp" />
+
+            <TextView
+                android:id="@+id/trip_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tid"
+                android:textSize="13sp"
+                android:textColor="#9E9E9E" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/trip_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datum"
+            android:textSize="13sp"
+            android:textColor="#9E9E9E" />
+
+    </LinearLayout>
+
+    <!-- Subtle separator line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="52dp" />
+
+</LinearLayout>
