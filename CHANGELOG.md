@@ -2,6 +2,44 @@
 
 Alla viktiga ändringar i detta projekt dokumenteras i denna fil.
 
+## [0.03] - 2025-08-07
+
+### ✨ Nya funktioner
+- **GPS-spårning**: Automatisk distansmätning genom att spåra din faktiska resa
+  - Real-time uppdateringar av spårad distans under resan
+  - Smart filtrering - endast betydande rörelser (5+ meter) registreras
+  - Batterisparande - optimerade inställningar för location services
+  - Haversine-formel för exakt distansberäkning mellan GPS-punkter
+
+- **Export av resor**: Professionella rapporter och dataexport
+  - **PDF-export** - professionella rapporter med detaljerad information
+  - **CSV-export** - för import i Excel, Google Sheets eller andra system
+  - Fullständig metadata - alla resedetaljer inkluderas i exporten
+  - Automatisk fildelning - dela direkt via e-post, cloud-lagring, etc.
+
+- **Förbättrade resedetaljer**: Mer omfattande information för varje resa
+  - Start- och sluttid för resor
+  - Syfte (Privat, Arbete, Möte, Utbildning, Resa, Övrigt)
+  - Fordonstyp (Bil, Motorcykel, Husbil, Lastbil, Övrigt)
+  - Anteckningar för extra information
+  - Status (Genomförd som standard)
+
+### 🔧 Tekniska förbättringar
+- **Google Play Services Location 21.0** - pålitliga location services
+- **iText 8.0** - professionell PDF-generation med svensk layout
+- **FileProvider** - säker hantering av platstillstånd och fildelning
+- **Batterioptimiering** - effektiv användning av GPS för minimal batteridränering
+- **UTF-8 encoding** - stöd för svenska tecken (å, ä, ö) i CSV-export
+
+### 🎯 Användarupplevelse
+- **Tre-läges-navigation** - tydlig separation mellan adress-, manuell och GPS-läge
+- **Visuell feedback** - GPS-status och progress visas tydligt
+- **Smart formhantering** - automatisk rensning när man byter mellan lägen
+- **Exportsektion** - dedicerat område för exportfunktioner
+- **Redigerbara resor** - uppdatera all information för sparade resor
+
+---
+
 ## [0.02] - 2025-08-06
 
 ### ✨ Nya funktioner
